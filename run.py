@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 modelGeneratorService = ModelGeneratorService(
-    model = '2500_GENERATOR_weights_and_arch.hdf5',
+    model = '2000_GENERATOR_weights_and_arch.hdf5',
     res = (170, 170)
 )
 app = Flask(__name__)
